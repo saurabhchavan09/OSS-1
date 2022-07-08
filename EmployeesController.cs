@@ -5,9 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using BOL;
 using BLL;
-
+//BOl is Bisuness Objecvt Layer 
+//BLL is a Bisuness Logiv Layer
+//both are class libarriers add as a reference in my contoller
 namespace DBWebMVCAPP.Controllers
 {
+
     public class EmployeesController : Controller
     {
         // GET: Employees
