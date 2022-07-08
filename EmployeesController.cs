@@ -33,7 +33,10 @@ namespace DBWebMVCAPP.Controllers
         public ActionResult Insert()
         {
             return View();
-        }
+ 
+ 
+ // comment added by saurabh
+ }
 
         [HttpPost]
         public ActionResult Insert(int DEPTNO, string DNAME, string LOC)
